@@ -27,11 +27,20 @@ npm install ethers
 ```
 npm install axios
 ```
-
+Save Private Key in json file:
 ```
 nano keys.json
 ```
+Install screen if you don't have it:
+```
+apt install screen
+```
 
+```
+screen -S claim
+```
+Run the script:
 ```
 node claim.js
 ```
+CTRL A+D to detach screeen
